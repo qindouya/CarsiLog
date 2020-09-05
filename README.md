@@ -1,9 +1,9 @@
 # CarsiLog
 实现Carsi日志的采集与分析
 # Carsi访问日志  
-日志目录：安装目录中的logs子目录  
-日志文件：只分析其中的访问日志，当前的日志文件名为idp-audit.log，历史日志文件为压缩后的.gz文件  
-日志格式：
+* 日志目录：安装目录中的logs子目录  
+* 日志文件：只分析其中的访问日志，当前的日志文件名为idp-audit.log，历史日志文件为压缩后的.gz文件  
+* 日志格式：
 
 ` ` `
 2020-09-02T08:08:22.559+08:00|urn:oasis:names:tc:SAML:2.0:bindings:HTTPRedirect|_d210b1938aced89c897579b2372cf53c|https://fsso.yyy.net/shibboleth|http://shibboleth.net/ns/profiles/saml2/sso/browser|https://idp.sdu.edu.cn/idp/shibboleth|urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST|_90e9fe99257861babd572a4bd624f544|202232122236|urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport|eduPersonScopedAffiliation|AAdzZWNyZXQxg882w41+cgvcRKiDWYnT5e2Ij+AgWlRYGGBXmwgav5MccO8Qw4Y8pMIqGNh9IwhDCSpxzLxU+s6c6vykVhpdyejME1y+JW5hPPVs2W6UbNZcYVSI+4XDNuDVxKjx70QGJwJLCEBbhI=|_7c64c0bb9b25ed4ae399c0b7a7e4e10|119.100.61.1|1a00180e914cbf1e59a73fff4c7af59b707de918f804de436c8158c6fc1ea932|
